@@ -7,7 +7,7 @@ class Descripcion extends StatelessWidget {
         appBar: AppBar(
             title: Text('Descripcion General')
         ),
-        body: Text('Hola Mundo!')
+        body: Text('Hola')
     );
   }
 }

@@ -1,0 +1,20 @@
+{
+  "nombreApp": "Componentes",
+  "rutas2":[
+    {
+      "ruta" : "Huella",
+      "icon": "fingerprint",
+      "texto": "Tu huella digital"
+    },
+    {
+      "ruta" : "Modo Avion",
+      "icon": "flight",
+      "texto": "El modo avion"
+    },
+    {
+      "ruta" : "Descarga",
+      "icon": "get_app",
+      "texto": "Descarga algo"
+    }
+  ]
+}

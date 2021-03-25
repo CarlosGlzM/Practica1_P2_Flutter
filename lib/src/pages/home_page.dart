@@ -9,7 +9,7 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Componentes'),
+        title: Text('Menu 1'),
       ),
       body: _lista(),
     );
@@ -34,7 +34,7 @@ class HomePage extends StatelessWidget {
       final widgetTemp = ListTile(
         title: Text(opt['texto']),
         leading: getIcon(opt['icon']),
-        trailing: Icon(Icons.keyboard_arrow_down, color: Colors.blue),
+        trailing: Icon(Icons.arrow_right),
         onTap: () {
           final route = MaterialPageRoute(builder: (context) => AlertPage());
           Navigator.push(context, route);

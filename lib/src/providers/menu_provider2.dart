@@ -9,7 +9,7 @@ class _MenuProviderDos {
   }
 
   Future<List<dynamic>> cargarData() async {
-    final resp = await rootBundle.loadString('data/menu_opts.json');
+    final resp = await rootBundle.loadString('data/menu_opts2.json');
 
     Map dataMap = json.decode(resp);
     opciones = dataMap['rutas2'];
